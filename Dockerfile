@@ -6,3 +6,6 @@ RUN gem install rails -v '5.2.2'
 WORKDIR /app
 ADD Gemfile Gemfile.lock /app/
 RUN bundle install
+
+ADD . .
+CMD ["puma"]
