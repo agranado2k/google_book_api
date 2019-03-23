@@ -1,7 +1,7 @@
 language: ruby
 
 services:
-  - docker
+- docker
 
 before_install:
 - docker build -t agranado2k/book_app .
@@ -10,3 +10,8 @@ before_install:
 
 script:
 - bundle exec rspec
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: VzTTVPOTkMvC9DhmKS8fYLmLXybFi4kcexY+HHTfCDzK69oBQVoVj3xhC4ikNIeLjB9V74oYTFISk9N9tbzbBLQs5S5sLxULYbdPiXwmJ+zG989JUzcEoirjVRa2NlZU9fYtdF67yai2bQfHT74is/mGLo6MnAZq7LKVOOSY3RuQz+HIADz8MYVaEDdlCxe/nUq9kNB4OEmyfVanKTl2nhQvTBxcwu4Cce+fqNBI8M7Fc58E6jf9PQURGET2qUf7a2idHqJCi7w3sAX1Q3bmG1ii9FjGkUgFAbPkjkfPiKm8rTM9q2oLHSV67vSwvCIV1LQlwqBF7z5WA/HEyz/ZAqFLSgvkiifWwVIW+gvSg2oBmGrWCjwcYboLlCkkwT5GQNe+3Oc6yjZllplcHNm9qXJRqY2FRk13llPtfPrSgfYbfBjFWEWl3gEyzD+fw5iiHFPAoK1Xh3C/hHHnWnyQnFrgvOImr4dt8QVCd3Avv2DSRo+Db7aYRioVl4wPfbOb2VYJwgSHXXGfkAklOKBk3DkmJfeUfy1JqCwhY2tJpBPaVLAzG+o2dH5RgluwTATKN4KmpeHaBR2s/GRGlFJqHvOuFF63hk4CKuRb9YGsRDcAzziKBAeAGsLZV00lCBGkpPyynsH3WTMUT8B68vgofb7+PSS5fEdhQmIg9U6tabE=
