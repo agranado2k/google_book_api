@@ -7,6 +7,9 @@ before_install:
 - docker ps -a
 script:
 - bundle exec rspec
+- bundle exec brakeman -A
+- bundle exec bundle audit
+- bundle exec rubocop
 deploy:
   provider: heroku
   app: thawing-crag-46147
