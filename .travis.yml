@@ -1,0 +1,12 @@
+language: ruby
+
+services:
+  - docker
+
+before_install:
+- docker pull agranado2k/book_app
+- docker run -d agranado2k/book_app
+- docker ps -a
+
+script:
+- bundle exec rspec
