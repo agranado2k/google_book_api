@@ -4,7 +4,7 @@ require "rails_helper"
 
 RSpec.describe Book do
   context "when create a book without params" do
-    it "should have title, author, publisher, img_link, info_link with nil value" do
+    it "should have attributes with nil value" do
       expect(subject.title).to be_nil
       expect(subject.author).to be_nil
       expect(subject.publisher).to be_nil

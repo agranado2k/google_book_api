@@ -3,35 +3,56 @@
 require "rails_helper"
 
 RSpec.describe BookRepository do
-  let(:book_api) { nil }
-  subject { BookRepository.new(book_api) }
-
-  xcontext "when query simple term" do
+  context "when query simple term" do
     context "when find results" do
-      let(:query) { 'query term with results' }
-      let(:book_1) { Book.new(title: "Book 1", author: 'someone 1', publisher: 'some publisher 1') }
-      let(:book_2) { Book.new(title: "Book 2", author: 'someone 2', publisher: 'some publisher 2') }
+      let(:query) { "simple" }
+      let(:params_1) { { title: "Book1", author: "aut1", publisher: "pub1" } }
+      let(:params_2) { { title: "Book2", author: "aut2", publisher: "pub2" } }
+      let(:book_1) { Book.new(params_1) }
+      let(:book_2) { Book.new(params_2) }
+      let(:book_api) { double("BookApi", query: [book_1, book_2]) }
+      subject { BookRepository.new(book_api) }
 
-      before(:each) do
-        book_api = Double('BookApi', query: [book_1, book_2])
-        @result = subject.search(query)
+      it "should call book api and get NOT empty list" do
+        expected_q = "simple"
+        result = [book_1, book_2]
+
+        expect(book_api).to receive(:query).with(expected_q).and_return(result)
+        subject.search(query)
       end
 
-      it { expect(@result).to eq([book_1, book_2]) }
+      context "when query list search terms separated" do
+        let(:query) { "query term with results" }
+        it "should call book api and get NOT empty list" do
+          expected_q = "query+term+with+results"
+
+          expect(book_api).to receive(:query).with(expected_q).and_return([])
+          subject.search(query)
+        end
+      end
+
+      context "when enclose the phrase in quotation marks" do
+        let(:query) { "query \"term with\" results" }
+        it "should call book api and get NOT empty list" do
+          expected_q = "query+\"term+with\"+results"
+
+          expect(book_api).to receive(:query).with(expected_q).and_return([])
+          subject.search(query)
+        end
+      end
     end
 
     context "when doesn't find result" do
-      let(:query) { 'query term without results' }
+      let(:query) { "simple" }
+      let(:book_api) { double("BookApi", query: []) }
+      subject { BookRepository.new(book_api) }
 
-      before(:each) do
-        @result = subject.search(query)
+      it "should call book api and get empty list" do
+        expected_q = "simple"
+
+        expect(book_api).to receive(:query).with(expected_q).and_return([])
+        subject.search(query)
       end
-
-      xit { expect(@result).to be_empty }
     end
   end
-
-  context "when query list search terms separated"
-
-  context "when query search for an exact phrase, enclose the phrase in quotation marks"
 end

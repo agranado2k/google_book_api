@@ -24,26 +24,25 @@ RSpec.feature "QueryBooks", type: :feature do
       end
 
       context "when query is empty" do
-        before(:each) { click_button 'Search' }
+        before(:each) { click_button "Search" }
 
         it "should return query books page without any results" do
-          expect(page).to have_content('No results')
+          expect(page).to have_content("No results")
         end
       end
 
       xcontext "when fill query with some word" do
         before(:each) do
-          fill_in 'search_field', with: 'sail'
-          click_button 'Search'
+          fill_in "search_field", with: "sail"
+          click_button "Search"
         end
 
         it "should return query books page without any results" do
-          expect(page).to_not have_content('No results')
-          expect(page).to have_content('Title')
-          expect(page).to have_content('Author')
-          expect(page).to have_content('Publisher')
+          expect(page).to_not have_content("No results")
+          expect(page).to have_content("Title")
+          expect(page).to have_content("Author")
+          expect(page).to have_content("Publisher")
         end
-
       end
     end
   end

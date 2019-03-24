@@ -3,15 +3,15 @@
 require "rails_helper"
 
 RSpec.describe BooksController, type: :controller do
-  context 'GET /books' do
-    context 'when the search query is empty' do
-      before { get :index, params: {q: ""} }
+  context "GET /books" do
+    context "when the search query is empty" do
+      before { get :index, params: { q: "" } }
 
-      it 'returns HTTP status 200' do
+      it "returns HTTP status 200" do
         expect(response).to have_http_status :ok
       end
 
-      it 'books is assigned to empty list' do
+      it "books is assigned to empty list" do
         expect(assigns(:books)).to be_empty
       end
 
@@ -21,14 +21,14 @@ RSpec.describe BooksController, type: :controller do
     end
 
     # TODO: Share test instead duplicate it
-    xcontext 'when the search query is NOT empty' do
-      before { get :index, params: {q: "sail"} }
+    xcontext "when the search query is NOT empty" do
+      before { get :index, params: { q: "sail" } }
 
-      it 'returns HTTP status 200' do
+      it "returns HTTP status 200" do
         expect(response).to have_http_status :ok
       end
 
-      it 'books is assigned to empty list' do
+      it "books is assigned to empty list" do
         expect(assigns(:books)).to_not be_empty
       end
 
