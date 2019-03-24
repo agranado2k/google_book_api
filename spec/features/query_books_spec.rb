@@ -31,7 +31,7 @@ RSpec.feature "QueryBooks", type: :feature do
         end
       end
 
-      context "when fill query with some word" do
+      xcontext "when fill query with some word" do
         before(:each) do
           fill_in 'search_field', with: 'sail'
           click_button 'Search'

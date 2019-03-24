@@ -21,7 +21,7 @@ RSpec.describe BooksController, type: :controller do
     end
 
     # TODO: Share test instead duplicate it
-    context 'when the search query is NOT empty' do
+    xcontext 'when the search query is NOT empty' do
       before { get :index, params: {q: "sail"} }
 
       it 'returns HTTP status 200' do
