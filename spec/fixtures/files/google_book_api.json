@@ -1,0 +1,766 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 260,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "3Kl0DwAAQBAJ",
+   "etag": "NGvuOlJoDoM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/3Kl0DwAAQBAJ",
+   "volumeInfo": {
+    "title": "The Secret of Spice",
+    "authors": [
+     "Tonia Buxton"
+    ],
+    "publisher": "Kings Road Publishing",
+    "publishedDate": "2019-01-10",
+    "description": "'This is a must-have book, packed with tips and hints from a talented chef.' - Paul Hollywood 'This book is right up my street! It's about time that a chef got involved seriously on what spices really do to us and the food we eat, so well done Tonia - you have spiced my life back up with this book.' Chef Aldo Zilli Celebrity chef and TV personality, Tonia Buxton reveals the secret to a happier, healthier, spicier you through her spice-based recipes and home remedies. Tonia shows you how to turn seemingly simple spices into delicious meals, beauty products, and powerful potions that will help you live longer and feel better, naturally. At 50 years old, Tonia is living proof that using spices can make you look and feel incredible. Spices have been used for thousands of years to heal people and keep illness at bay, and Tonia is reminding us, through her delicious, easy-to-follow recipes and holistic home remedies, that putting a little spice in your life can still do wonders for your wellbeing today.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781788701082"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1788701089"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 288,
+    "printType": "BOOK",
+    "categories": [
+     "Cooking"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.1.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=3Kl0DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=3Kl0DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.uk/books?id=3Kl0DwAAQBAJ&printsec=frontcover&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&cd=11&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=3Kl0DwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-3Kl0DwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "GB",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 4.99,
+     "currencyCode": "GBP"
+    },
+    "retailPrice": {
+     "amount": 3.99,
+     "currencyCode": "GBP"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=3Kl0DwAAQBAJ&rdid=book-3Kl0DwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 4990000.0,
+       "currencyCode": "GBP"
+      },
+      "retailPrice": {
+       "amountInMicros": 3990000.0,
+       "currencyCode": "GBP"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "GB",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.uk/books/download/The_Secret_of_Spice-sample-epub.acsm?id=3Kl0DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.uk/books/download/The_Secret_of_Spice-sample-pdf.acsm?id=3Kl0DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=3Kl0DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "&#39;This is a must-have book, packed with tips and hints from a talented chef.&#39; - Paul Hollywood &#39;This book is right up my street!"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "oeNkDwAAQBAJ",
+   "etag": "vBeHg4SAA1k",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/oeNkDwAAQBAJ",
+   "volumeInfo": {
+    "title": "Breaking His Rules",
+    "authors": [
+     "Aliza Mann"
+    ],
+    "publisher": "Loveswept",
+    "publishedDate": "2019-04-02",
+    "description": "An international playboy finds true love in a sexy new standalone contemporary romance from Aliza Mann. Ashton Lyle is a man in control. His rules are simple: Discipline. Hard work. No deviation. And lucky for him no one is able to resist his mega-watt smile, dazzling wit, sexy British accent, and ability to manipulate any situation in business . . . and in bed. That is, until he meets a woman with rules of her own. Terra Ellis is a self-made woman who knows what she wants. A successful entrepreneur, she has worked hard to cultivate an impeccable image. A tumultuous relationship with her ex-husband has reinforced her drive but it has also made her question serious relationships. After all, a busy woman has no time for romance. That is, until Terra meets a man who sees through her façade. Ashton and Terra are about to discover that some rules were made to be broken. . . . This ebook includes an excerpt from another Loveswept title. Advance praise for Breaking His Rules “Captivating and charming . . . blond Brit Ashton Lyle [encounters] Terra, a street-smart black woman. . . . [Aliza] Mann blends comedic elements and tight emotional drama with the delicate developing romance. . . . A solid and enjoyable story.”—Publishers Weekly “Breaking His Rules is a sexy, modern romance full of humor, charm, and heart.”—Roni Loren, New York Times bestselling author of The One You Fight For “A sexy read with plenty of snappy banter and steamy scenes to keep you turning the pages. Aliza Mann’s Breaking His Rules is a heartwarming debut with laugh-out-loud moments and a twist I didn’t see coming.”—Juno Rushdan, author of Every Last Breath",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781984800152"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1984800159"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 276,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.3.2.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=oeNkDwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=oeNkDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.uk/books?id=oeNkDwAAQBAJ&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&cd=12&source=gbs_api",
+    "infoLink": "http://books.google.co.uk/books?id=oeNkDwAAQBAJ&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Breaking_His_Rules.html?hl=&id=oeNkDwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "GB",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "GB",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=oeNkDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Aliza Mann’s Breaking His Rules is a heartwarming debut with laugh-out-loud moments and a twist I didn’t see coming.”—Juno Rushdan, author of Every Last Breath"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "UR0ErgEACAAJ",
+   "etag": "x+Q2MhO72ps",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/UR0ErgEACAAJ",
+   "volumeInfo": {
+    "title": "Dirt Nap Rhapsody",
+    "authors": [
+     "Jules Cassard"
+    ],
+    "publishedDate": "2015-02-01",
+    "description": "A novel about love, marriage, and the murder it takes to make it last... Tag and Lori are the couple on the top of the wedding cake. Everything about their relationship is perfect and they're both deliriously happy - except for one tiny little, earth-shattering problem. Her name is Marcie and despite the fact that Tag likes to think of himself as a pretty decent guy, he just can't shake his desire to do some... well, some not so decent things with her. When his obsession with Marcie gets to the point that he finally breaks down and confesses his struggles to Lori, Tag is touched by her compassionate and understanding response. He breathes a sigh of relief - until the next day when Marcie turns up dead. Could sweet, dainty, couldn't-hurt-a-fly Lori be a... be a... Tag can't even bring himself to think it. But could she? Detective Steiner doesn't think so. The way he sees it, Tag is guilty as hell and it's only a matter of time before the truth comes spilling out of him. Of course Tag knows that's impossible because he doesn't even know the truth himself - and he's not sure if he wants to. Of course the truth may come out anyway if Susan keeps poking around. Susan is Tag and Lori's recently widowed next door neighbor whose hobbies include gardening, drinking and hypochondria. She also has a thing for Tag and a poor understanding of the concept of boundaries, so there's a small chance that Lori might want to murder her too. Assuming of course that Lori is capable of something like... something like... On second thought, Tag and Lori have more than one tiny little problem.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0986417807"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780986417801"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 302,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=UR0ErgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=UR0ErgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.uk/books?id=UR0ErgEACAAJ&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&cd=13&source=gbs_api",
+    "infoLink": "http://books.google.co.uk/books?id=UR0ErgEACAAJ&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Dirt_Nap_Rhapsody.html?hl=&id=UR0ErgEACAAJ"
+   },
+   "saleInfo": {
+    "country": "GB",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "GB",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=UR0ErgEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "A novel about love, marriage, and the murder it takes to make it last."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "tG_CCwAAQBAJ",
+   "etag": "PZw+scPLcsY",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/tG_CCwAAQBAJ",
+   "volumeInfo": {
+    "title": "How to Be Miserable",
+    "subtitle": "40 Strategies You Already Use",
+    "authors": [
+     "Randy J. Paterson"
+    ],
+    "publisher": "New Harbinger  Publications",
+    "publishedDate": "2016-05-01",
+    "description": "In How to Be Miserable, psychologist Randy Paterson outlines 40 specific behaviors and habits, which—if followed—are sure to lead to a lifetime of unhappiness. On the other hand, if you do the opposite, you may yet join the ranks of happy people everywhere! There are stacks upon stacks of self-help books that will promise you love, happiness, and a fabulous life. But how can you pinpoint the exact behaviors that cause you to be miserable in the first place? Sometimes when we’re depressed, or just sad or unhappy, our instincts tell us to do the opposite of what we should—such as focusing on the negative, dwelling on what we can’t change, isolating ourselves from friends and loved ones, eating junk food, or overindulging in alcohol. Sound familiar? This tongue-in-cheek guide will help you identify the behaviors that make you unhappy and discover how you—and only you—are holding yourself back from a life of contentment. You’ll learn to spot the tried-and-true traps that increase feelings of dissatisfaction, foster a lack of motivation, and detract from our quality of life—as well as ways to avoid them. So, get ready to live the life you want (or not?) This fun, irreverent guide will light the way.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781626254084"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1626254087"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 232,
+    "printType": "BOOK",
+    "categories": [
+     "Self-Help"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 15,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.3.3.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=tG_CCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=tG_CCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.uk/books?id=tG_CCwAAQBAJ&printsec=frontcover&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&cd=14&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=tG_CCwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-tG_CCwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "GB",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 9.17,
+     "currencyCode": "GBP"
+    },
+    "retailPrice": {
+     "amount": 6.42,
+     "currencyCode": "GBP"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=tG_CCwAAQBAJ&rdid=book-tG_CCwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 9170000.0,
+       "currencyCode": "GBP"
+      },
+      "retailPrice": {
+       "amountInMicros": 6420000.0,
+       "currencyCode": "GBP"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "GB",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.uk/books/download/How_to_Be_Miserable-sample-epub.acsm?id=tG_CCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.uk/books/download/How_to_Be_Miserable-sample-pdf.acsm?id=tG_CCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=tG_CCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "So, get ready to live the life you want (or not?) This fun, irreverent guide will light the way."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "ca0yBduv-8gC",
+   "etag": "S9fh1A9Dj5o",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/ca0yBduv-8gC",
+   "volumeInfo": {
+    "title": "Gentle Action",
+    "subtitle": "Bringing Creative Change to a Turbulent World",
+    "authors": [
+     "F. David Peat"
+    ],
+    "publisher": "Pari Publishing",
+    "publishedDate": "2008",
+    "description": "The author of Seven Life Lessons of Chaos makes recommendations for enabling more effective, creative, and non-invasive improvements for the overall betterment of society and the economy, in a guide for business and community leaders that covers such topics as global markets, poverty, and the environment. Original.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9788895604039"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "8895604032"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 174,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.0.1.0.preview.3",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=ca0yBduv-8gC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=ca0yBduv-8gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.uk/books?id=ca0yBduv-8gC&printsec=frontcover&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&cd=15&source=gbs_api",
+    "infoLink": "http://books.google.co.uk/books?id=ca0yBduv-8gC&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Gentle_Action.html?hl=&id=ca0yBduv-8gC"
+   },
+   "saleInfo": {
+    "country": "GB",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "GB",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.co.uk/books/download/Gentle_Action-sample-epub.acsm?id=ca0yBduv-8gC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=ca0yBduv-8gC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The author of Seven Life Lessons of Chaos makes recommendations for enabling more effective, creative, and non-invasive improvements for the overall betterment of society and the economy, in a guide for business and community leaders that ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "An_XCwAAQBAJ",
+   "etag": "6fjnFCBrZlQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/An_XCwAAQBAJ",
+   "volumeInfo": {
+    "title": "The Future of Clean Energy",
+    "authors": [
+     "Gary Schwendiman"
+    ],
+    "publisher": "Author House",
+    "publishedDate": "2015-12-30",
+    "description": "Most books on clean energy are so data-driven and scientific that they're all but impossible to understand. Fortunately, this isn't one of them. Visionary author Gary Schwendiman answers the energy sector's biggest questions in a way that anyone can understand and appreciate. This is as much a book for investors and political leaders as it is for the casual reader with an interest in how we're going to solve some of the world's most difficult environmental and economic problems. How can we combat global warming? How can we grow the global economy? How can we turn the lights on for the 1.5 billion people in the world who currently lack access to electricity? How can we provide all the additional fuel we'll need when the number of vehicles worldwide doubles from 1 billion to 2 billion by 2030? This book answers all these questions in a fun, lighthearted, engaging way. It compares the future of clean energy to a football season that concludes with what Schwendiman calls \"The Clean Energy Bowl.\" Join him as he examines each energy source as if it were a football team, comparing and contrasting the strongest players until he arrives at the ultimate conclusion: the team best positioned to completely change the world. During the next few decades, the game will be rough, but the rewards significant. When the dust settles, the environment will be cleaner, the economy stronger, and the world more peaceful. So pack up the tailgate party. Grab your tickets. Get ready for kickoff!",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781496940438"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1496940431"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 216,
+    "printType": "BOOK",
+    "categories": [
+     "Business & Economics"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=An_XCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=An_XCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.uk/books?id=An_XCwAAQBAJ&printsec=frontcover&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&cd=16&source=gbs_api",
+    "infoLink": "http://books.google.co.uk/books?id=An_XCwAAQBAJ&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Future_of_Clean_Energy.html?hl=&id=An_XCwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "GB",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "GB",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=An_XCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This book answers all these questions in a fun, lighthearted, engaging way. It compares the future of clean energy to a football season that concludes with what Schwendiman calls &quot;The Clean Energy Bowl."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "8fXzJrDfFgUC",
+   "etag": "c+SyMomIFM4",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/8fXzJrDfFgUC",
+   "volumeInfo": {
+    "title": "Veterinary Pathology",
+    "authors": [
+     "Thomas Carlyle Jones",
+     "Ronald Duncan Hunt",
+     "Norval W. King"
+    ],
+    "publisher": "Blackwell Publishing",
+    "publishedDate": "1997-03-24",
+    "description": "This is the latest edition of the standard in comparative pathology, used by practitioners and students alike as a comprehensive yet understandable resource. Rigorously revised, the sixth edition introduces a wealth of new information on immunopathology and pathogenesis, viral diseases, environmental toxins, parasitic diseases, and nutritional problems in domestic and captive animals. Approximately half of the information presented is new, as are about 200 illustrations. Plus, the text's presentation is improved, with a larger format, and a more reader-friendly design to appeal to students.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0683044818"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780683044812"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 1392,
+    "printType": "BOOK",
+    "categories": [
+     "Medical"
+    ],
+    "averageRating": 3.5,
+    "ratingsCount": 4,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=8fXzJrDfFgUC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=8fXzJrDfFgUC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.uk/books?id=8fXzJrDfFgUC&pg=PP1&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&cd=17&source=gbs_api",
+    "infoLink": "http://books.google.co.uk/books?id=8fXzJrDfFgUC&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Veterinary_Pathology.html?hl=&id=8fXzJrDfFgUC"
+   },
+   "saleInfo": {
+    "country": "GB",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "GB",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=8fXzJrDfFgUC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "Ki3BjwEACAAJ",
+   "etag": "MPE83szE8Ck",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Ki3BjwEACAAJ",
+   "volumeInfo": {
+    "title": "What Drives Winning",
+    "subtitle": "Building Character Gets Results: Workbook One",
+    "publishedDate": "2016-04-30",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0996226451"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780996226455"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.uk/books?id=Ki3BjwEACAAJ&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&cd=18&source=gbs_api",
+    "infoLink": "http://books.google.co.uk/books?id=Ki3BjwEACAAJ&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/What_Drives_Winning.html?hl=&id=Ki3BjwEACAAJ"
+   },
+   "saleInfo": {
+    "country": "GB",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "GB",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=Ki3BjwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "GXS1MQEACAAJ",
+   "etag": "xBnEZWKAZCo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/GXS1MQEACAAJ",
+   "volumeInfo": {
+    "title": "Last House on the Hill",
+    "subtitle": "BACH Area Reports from Çatalhöyük, Turkey",
+    "authors": [
+     "Ruth Tringham",
+     "Mirjana Stevanović"
+    ],
+    "publisher": "Cotsen Institute of Archaeology",
+    "publishedDate": "2012",
+    "description": "Recipient of the Jo Anne Stolaroff Cotsen Prize Occupied from around 7500 BC to 5700 BC, the large Neolithic and Chalcolithic settlement of Çatalhöyük in Anatolia is composed entirely of domestic buildings; no public buildings have been identified. First excavated in the early 1960s, the site was left untouched until 1993. During the summers of 1997-2003 a team from the University of California at Berkeley (the BACH team) excavated an area at the northern end of the East Mound of Çatalhöyük. The houses there date predominantly to the late Aceramic and early Ceramic Neolithic, around 7000 BC. Last House on the Hill is the final report of the BACH excavations. This volume comprises both interpretive chapters and empirical data from the excavations and their materials. The research of the BACH team focuses on the lives and life histories of houses and people, the use of digital technologies in documenting and sharing the archaeological process, the senses of place, and the nature of cultural heritage and our public responsibilities. Last House on the Hill is mirrored by an online media- and data-rich digital version (www.codifi.info/projects/last-house-onthe-hill) that interlinks all the original data, media, analyses, and interpretation of the BACH project with the final synthetic contents presented in this monograph.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1931745668"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781931745666"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 594,
+    "printType": "BOOK",
+    "categories": [
+     "History"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=GXS1MQEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=GXS1MQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.uk/books?id=GXS1MQEACAAJ&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&cd=19&source=gbs_api",
+    "infoLink": "http://books.google.co.uk/books?id=GXS1MQEACAAJ&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Last_House_on_the_Hill.html?hl=&id=GXS1MQEACAAJ"
+   },
+   "saleInfo": {
+    "country": "GB",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "GB",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=GXS1MQEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "This volume comprises both interpretive chapters and empirical data from the excavations and their materials."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "zU_AuAEACAAJ",
+   "etag": "pTLpI2xWQYs",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/zU_AuAEACAAJ",
+   "volumeInfo": {
+    "title": "Deport, Deprive, Extradite",
+    "subtitle": "Twenty-First-Century State Extremism",
+    "authors": [
+     "Nisha Kapoor"
+    ],
+    "publisher": "Verso",
+    "publishedDate": "2019-03-12",
+    "description": "The extradition of terror suspects reveals the worst features of the security state In 2012 five Muslim men--Babar Ahmad, Talha Ahsan, Khalid al-Fawwaz, Adel Abdul Bary, and Abu Hamza--were extradited from Britain to the US to face terrorism-related charges. Fahad Hashmi was deported a few years before. Abid Naseer and Haroon Aswat would follow shortly. They were subject to pre-trial incarceration for up to seventeen years, police brutality, secret trials, secret evidence, long-term detention in solitary confinement, citizenship deprivation and more. Deport, Deprive, Extradite draws on their stories as starting points to explore what they illuminate about the disciplinary features of state power and its securitising conditions. In looking at these stories of Muslim men accused of terrorism-related offences, Nisha Kapoor exposes how these racialised subjects are dehumanised, made non-human, both in terms of how they are represented and via the disciplinary techniques used to expel them. She explores how these cases illuminate and enable intensifying authoritarianism and the diminishment of democratic systems.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "1786633485"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9781786633484"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 240,
+    "printType": "BOOK",
+    "categories": [
+     "Political Science"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=zU_AuAEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=zU_AuAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.co.uk/books?id=zU_AuAEACAAJ&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&cd=20&source=gbs_api",
+    "infoLink": "http://books.google.co.uk/books?id=zU_AuAEACAAJ&dq=%22Lorem+Ipsum+is+simply+dummy+text+of+the+printing+and+typesetting+industry.+Lorem+Ipsum+has+been+the+industry%27s+standard+dummy+text+ever+since+the%22&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Deport_Deprive_Extradite.html?hl=&id=zU_AuAEACAAJ"
+   },
+   "saleInfo": {
+    "country": "GB",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "GB",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=zU_AuAEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In looking at these stories of Muslim men accused of terrorism-related offences, Nisha Kapoor exposes how these racialised subjects are dehumanised, made non-human, both in terms of how they are represented and via the disciplinary ..."
+   }
+  }
+ ]
+}
