@@ -5,7 +5,7 @@ require "rails_helper"
 RSpec.describe BooksController, type: :controller do
   context "GET /books" do
     context "when the search query is empty" do
-      before { get :index, params: { q: "" } }
+      before { get :index, params: { search_field: "" } }
 
       it "returns HTTP status 200" do
         expect(response).to have_http_status :ok
@@ -21,8 +21,8 @@ RSpec.describe BooksController, type: :controller do
     end
 
     # TODO: Share test instead duplicate it
-    xcontext "when the search query is NOT empty" do
-      before { get :index, params: { q: "sail" } }
+    context "when the search query is NOT empty" do
+      before { get :index, params: { search_field: "sail" } }
 
       it "returns HTTP status 200" do
         expect(response).to have_http_status :ok
