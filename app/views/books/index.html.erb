@@ -7,7 +7,7 @@
     <%= submit_tag("Search") %>
   <% end %>
 </div>
-<div class="row">
+<div class="row" style="margin-top: 10px !important;">
   <% if @books.empty? %>
     <span>No results</span>
   <% else %>
@@ -15,12 +15,16 @@
       <% @books.each do |book| %>
         <li class="list-group-item">
           <div class="media">
-            <img src="<%= book.img_link %>" class="mr-3" alt="<%= book.title %>">
+            <a href="<%= book.info_link %>" />
+              <img src="<%= book.img_link %>" class="mr-3" style="width: 64px; height:84px;"  alt="<%= book.title %>">
+            </a>
             <div class="media-body">
               <h5 class="mt-0"><%= book.title %></h5>
-              <span>Author: <%= book.author %></span>
-              <span>Publisher: <%= book.publisher %></span>
-              <a href="<%= book.info_link %>" >Learn more here!</a>
+              <p class="mb-1">Author: <%= book.author %></p>
+              <p class="mb-1">Publisher: <%= book.publisher %></p>
+              <small class="text-muted">
+                <a href="<%= book.info_link %>" >Learn more here!</a>
+              </small>
             </div>
           </div>
         </li>
