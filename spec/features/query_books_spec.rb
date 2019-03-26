@@ -31,7 +31,7 @@ RSpec.feature "QueryBooks", type: :feature do
         end
       end
 
-      xcontext "when fill query with some word" do
+      context "when fill query with some word" do
         before(:each) do
           fill_in "search_field", with: "sail"
           click_button "Search"
@@ -39,7 +39,7 @@ RSpec.feature "QueryBooks", type: :feature do
 
         it "should return query books page without any results" do
           expect(page).to_not have_content("No results")
-          expect(page).to have_content("Title")
+          expect(page).to have_content("Learn more here")
           expect(page).to have_content("Author")
           expect(page).to have_content("Publisher")
         end
