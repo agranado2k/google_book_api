@@ -5,9 +5,7 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
-    <%= stylesheet_link_tag    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", media: 'all', integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T", crossorigin: "anonymous" %>
-    <%= javascript_include_tag 'application' %>
+    <%= stylesheet_link_tag "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css", media: 'all', integrity: "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T", crossorigin: "anonymous" %>
   </head>
 
   <body>
@@ -15,4 +13,50 @@
       <%= yield %>
     </div>
   </body>
+  <script>
+    const diablePreviousButton = () => {
+      const pBElems = document.getElementsByClassName('previous-button')
+      for(let i = 0; i < pBElems.length; i++)
+        pBElems[i].classList.add("disabled")
+    }
+    const enablePreviousButton = () => {
+      const pBElems = document.getElementsByClassName('previous-button')
+      for(let i = 0; i < pBElems.length; i++)
+        pBElems[i].classList.remove("disabled")
+    }
+
+    const setCurrentPageAndSubmitForm = () => {
+      document.getElementById('currentPage').value = currentPage;
+      document.getElementById("bookForm").submit();
+      console.log('currentPage', currentPage)
+    }
+
+    const previousPage = () => {
+      if (currentPage > 0) {
+        currentPage -= 1
+        setCurrentPageAndSubmitForm()
+      }
+      if (currentPage == 0) {
+        diablePreviousButton()
+      }
+    }
+
+    const nextPage = () => {
+        currentPage += 1
+        enablePreviousButton()
+        setCurrentPageAndSubmitForm()
+    }
+
+    const pBElems = document.getElementsByClassName('previous-button')
+    for(let i = 0; i < pBElems.length; i++)
+      pBElems[i].addEventListener('click', previousPage)
+
+    const nBElems = document.getElementsByClassName('next-button')
+    for(let i = 0; i < nBElems.length; i++)
+      nBElems[i].addEventListener('click', nextPage)
+
+    let currentPage = <%= params[:currentPage] || 0 %>
+    if (currentPage == 0)
+      diablePreviousButton()
+  </script>
 </html>
