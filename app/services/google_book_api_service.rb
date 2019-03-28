@@ -6,20 +6,28 @@ class GoogleBookApiService
     @client = client
   end
 
-  def query(term)
-    base_url = 'https://www.googleapis.com'
-    resource = '/books/v1/volumes'
-    q_string = "#{term}&key=#{@api_key}"
-    params = "#{base_url}#{resource}?q=#{q_string}"
-    Rails.logger.debug("params: #{params}")
-    response = @client.get params
+  def query(term, page)
+    url = create_url(term, page)
+    Rails.logger.debug("url: #{url}")
+    response = @client.get url
+    Rails.logger.debug("response: #{response}")
     create_book_list(response)
   end
 
   private
 
+    def create_url(term, page)
+      base_url = 'https://www.googleapis.com'
+      resource = '/books/v1/volumes'
+      q_string = "#{term}&key=#{@api_key}"
+      pagination = "&startIndex=#{page}&maxResults=10"
+      "#{base_url}#{resource}?q=#{q_string}#{pagination}"
+    end
+
     def create_book_list(response)
       json = JSON.parse(response.body, symbolize_names: true)
+      return [] if json[:totalItems].zero?
+
       json[:items].map do |item|
         Book.new create_params(item)
       end

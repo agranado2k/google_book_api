@@ -22,18 +22,55 @@ RSpec.describe BooksController, type: :controller do
 
     # TODO: Share test instead duplicate it
     context "when the search query is NOT empty" do
-      before { get :index, params: { search_field: "sail" } }
+      let(:params) { { search_field: "sail", currentPage: 1 } }
 
-      it "returns HTTP status 200" do
-        expect(response).to have_http_status :ok
+      context "when currentPage has defualt value" do
+        before { get :index, params: params }
+
+        it "returns HTTP status 200" do
+          expect(response).to have_http_status :ok
+        end
+
+        it "books is assigned to empty list" do
+          expect(assigns(:books)).to_not be_empty
+        end
+
+        it "renders the index template" do
+          expect(response).to render_template("index")
+        end
       end
 
-      it "books is assigned to empty list" do
-        expect(assigns(:books)).to_not be_empty
+      context "when currentPage has defualt value + 1" do
+        before { get :index, params: params }
+
+        it "returns HTTP status 200" do
+          expect(response).to have_http_status :ok
+        end
+
+        it "books is assigned to empty list" do
+          expect(assigns(:books)).to_not be_empty
+        end
+
+        it "renders the index template" do
+          expect(response).to render_template("index")
+        end
       end
 
-      it "renders the index template" do
-        expect(response).to render_template("index")
+      context "when currentPage has defualt value + 1000" do
+        let(:params) { { search_field: "sail", currentPage: 1000 } }
+        before { get :index, params: params }
+
+        it "returns HTTP status 200" do
+          expect(response).to have_http_status :ok
+        end
+
+        it "books is assigned to empty list" do
+          expect(assigns(:books)).to be_empty
+        end
+
+        it "renders the index template" do
+          expect(response).to render_template("index")
+        end
       end
     end
   end

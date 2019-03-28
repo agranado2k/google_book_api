@@ -5,8 +5,8 @@ class BookRepository
     @book_api = book_api
   end
 
-  def search(q)
-    @book_api.query(convert_query(q))
+  def search(q, page)
+    @book_api.query(convert_query(q), page)
   end
 
   private

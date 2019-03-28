@@ -10,10 +10,12 @@ RSpec.describe GoogleBookApiService do
     end
     let(:google_api_key) { "valid_key" }
     let(:term) { "sails" }
+    let(:page) { 1 }
     let(:base_url) { "https://www.googleapis.com" }
     let(:resource) { "/books/v1/volumes" }
     let(:q_string) { "#{term}&key=#{google_api_key}" }
-    let(:request_params) { "#{base_url}#{resource}?q=#{q_string}" }
+    let(:pagination) { "&startIndex=1&maxResults=10" }
+    let(:request_params) { "#{base_url}#{resource}?q=#{q_string}#{pagination}" }
     subject { GoogleBookApiService.new(google_api_key, http_client) }
     before(:each) do
       allow(http_client).to receive(:get)
@@ -22,7 +24,7 @@ RSpec.describe GoogleBookApiService do
     end
 
     it "should receive book list" do
-      books = subject.query(term)
+      books = subject.query(term, page)
 
       expect(books).to_not be_empty
       expect(books[0]).to be_a Book
