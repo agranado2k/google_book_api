@@ -13,7 +13,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails', '~> 3.8'
   gem 'rails-controller-testing', '~> 0.0.3'
-  gem 'rubocop', '~> 0.47.1'
+  gem 'rubocop', '~> 0.66.0'
   gem 'bundler-audit', '~> 0.6.1'
   gem 'brakeman', '~> 4.5'
 end

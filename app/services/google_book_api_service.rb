@@ -45,11 +45,13 @@ class GoogleBookApiService
 
     def authors(item)
       return 'N/A' if item[:volumeInfo][:authors].nil?
+
       item[:volumeInfo][:authors].join(', ')
     end
 
     def image(item)
       return nil if item[:volumeInfo][:imageLinks].nil?
+
       item[:volumeInfo][:imageLinks][:smallThumbnail]
     end
 end

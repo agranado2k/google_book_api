@@ -5,13 +5,13 @@ class BookRepository
     @book_api = book_api
   end
 
-  def search(q, page)
-    @book_api.query(convert_query(q), page)
+  def search(query, page)
+    @book_api.query(convert_query(query), page)
   end
 
   private
 
-    def convert_query(q)
-      q.gsub(/\s+/, '+')
+    def convert_query(query)
+      query.gsub(/\s+/, '+')
     end
 end

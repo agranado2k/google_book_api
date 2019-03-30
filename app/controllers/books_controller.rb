@@ -15,6 +15,7 @@ class BooksController < ApplicationController
 
     def current_page
       return 1 if params[:currentPage].blank?
+
       params[:currentPage]
     end
 end
