@@ -1,6 +1,44 @@
 [![Build Status](https://travis-ci.org/agranado2k/google_book_api.svg?branch=master)](https://travis-ci.org/agranado2k/google_book_api)
 # Google Book API 
 
+You can access the project in the demo environment on [heroku here](https://thawing-crag-46147.herokuapp.com).
+
+## Pre requirement
+You need to install [docker compose](https://docs.docker.com/compose/install/).
+
+## How to build the image
+In the project's root folder execute the command:
+```shell
+docker-compose build
+```
+
+## How to run test
+In the project's root folder execute the command
+```shell
+docker-compose run web bundle exec rake
+```
+If you want only execute RSpec, you can also execute the command
+```shell
+docker-compose run web bundle exec rspec
+```
+
+## How to run the project
+In the project's root folder execute the command
+```shell
+docker-compose up web
+```
+And open in browser [http://localhost:3000](http://localhost:3000)
+
+
+### Important consideration
+The `rake` command execute some code analysis:
+- [Rubocop](https://github.com/rubocop-hq/rubocop) - a Ruby static code analyzer (a.k.a. linter) and code formatter. Out of the box it will enforce many of the guidelines outlined in the community.
+- [Brakeman](https://brakemanscanner.org/) - Brakeman is a free vulnerability scanner specifically designed for Ruby on Rails applications. It statically analyzes Rails application code to find security issues at any stage of development. 
+- [Bundle Audit](https://github.com/rubysec/bundler-audit) - Patch-level verification for bundler to check vulnerable versions of gems in Gemfile.lock, amongst other verifications.
+
+### Continuous Integration and Continuous Deployment
+In the project we're using [Travis-CI.org](https://travis-ci.org/agranado2k/google_book_api) as continuous integration tools that deploy on Heroku everytime we got green test's bar. Check the history [here](https://travis-ci.org/agranado2k/google_book_api).
+Also we're deploying the project on [Heroku Container](https://devcenter.heroku.com/categories/deploying-with-docker) using [ruby:2.6-alpine](https://hub.docker.com/_/ruby) as image base.
 
 ## Development draft
 
@@ -41,6 +79,3 @@ https://www.googleapis.com/books/v1/volumes?q=sail&maxResults=10&startIndex=10&k
 use maxResults and startIndex to paginate
 pay attention to q, it can have multiple term ==> sail+"atlantico sul"
 
-##### Keep in mind
-- We don't need database
-- Include Google Analytics in the end
