@@ -1,3 +1,4 @@
+
 [![Build Status](https://travis-ci.org/agranado2k/google_book_api.svg?branch=master)](https://travis-ci.org/agranado2k/google_book_api)
 # Google Book API 
 
@@ -30,15 +31,17 @@ docker-compose up web
 And open in browser [http://localhost:3000](http://localhost:3000)
 
 
-### Important consideration
+### Continuous Integration and Continuous Deployment
 The `rake` command execute some code analysis:
 - [Rubocop](https://github.com/rubocop-hq/rubocop) - a Ruby static code analyzer (a.k.a. linter) and code formatter. Out of the box it will enforce many of the guidelines outlined in the community.
 - [Brakeman](https://brakemanscanner.org/) - Brakeman is a free vulnerability scanner specifically designed for Ruby on Rails applications. It statically analyzes Rails application code to find security issues at any stage of development. 
 - [Bundle Audit](https://github.com/rubysec/bundler-audit) - Patch-level verification for bundler to check vulnerable versions of gems in Gemfile.lock, amongst other verifications.
 
-### Continuous Integration and Continuous Deployment
 In the project we're using [Travis-CI.org](https://travis-ci.org/agranado2k/google_book_api) as continuous integration tools that deploy on Heroku everytime we got green test's bar. Check the history [here](https://travis-ci.org/agranado2k/google_book_api).
 Also we're deploying the project on [Heroku Container](https://devcenter.heroku.com/categories/deploying-with-docker) using [ruby:2.6-alpine](https://hub.docker.com/_/ruby) as image base.
+
+### Important consideration
+In this project we're using the design pattern [repository](https://martinfowler.com/eaaCatalog/repository.html) ([BookRepository](https://github.com/agranado2k/google_book_api/blob/master/app/repositories/book_repository.rb)), and design pattern [gateway](https://martinfowler.com/eaaCatalog/gateway.html) (that I called as [GoogleBookApiService](https://github.com/agranado2k/google_book_api/blob/master/app/services/google_book_api_service.rb)).
 
 ## Development draft
 
