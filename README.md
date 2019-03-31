@@ -1,5 +1,6 @@
-
 [![Build Status](https://travis-ci.org/agranado2k/google_book_api.svg?branch=master)](https://travis-ci.org/agranado2k/google_book_api)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a7d0cfaf2b86b9df97af/maintainability)](https://codeclimate.com/github/agranado2k/google_book_api/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/a7d0cfaf2b86b9df97af/test_coverage)](https://codeclimate.com/github/agranado2k/google_book_api/test_coverage)
 # Google Book API 
 
 You can access the project in the demo environment on [heroku here](https://thawing-crag-46147.herokuapp.com).
