@@ -6,9 +6,10 @@ before_install:
 - docker run -d agranado2k/book_app
 - docker ps -a
 before_script:
-  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-  - chmod +x ./cc-test-reporter
-  - ./cc-test-reporter before-build
+- curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64
+  > ./cc-test-reporter
+- chmod +x ./cc-test-reporter
+- "./cc-test-reporter before-build"
 script:
 - bundle exec rspec
 - bundle exec brakeman -A
@@ -20,6 +21,6 @@ deploy:
   api_key:
     secure: OFTDlopHmy4/DoKeMtIf1obWlv+SdrkIBS2dNbYJeMeJc3QKJ6JellwklmhUGn/6zjaZ/XyX+lCeqrVbYLwnfQj3w+wVu+eWv8Hz7kKVI1fPE9qcSr4kNgDowXBlsHuTKTI+iitT3AyA2QRruWXnF60/JTSJ5OqWjLpM9u68to2HfJe7B0E/GHrUB26tYJt0PAdX88t9ybpjmGUBG7ZGRnDb9AbcfKuc3/4wJ6FBiSfNKeP7eLItMmwFTOg8LtVfm2AXvMGKJIZUhWrFHnSYVqHNtH8hGQunpr60CZu8JaCkbn+NP9+Gmk/eIJk5pM7kYxoNr8zAjokPYxwBq4ecZWn/25NFUCr5Kjn1DsH+74xbKtMPlMxrTQZqTp5DHNDPsxps7MqL8ftBVFZrAt3+lElBa1Lru1g2sqtmUtlkjwsrbQgqq19cuSJHGbawdSwm7l5dqZGkLGTiOfwfx9TF0/1SeZ3pECdYyqZNctqqt3rBqQfsfXGMTvA+ns+e2ddqG6AyeDU1EhtW8NcsNsPs3pdsaXBqVn/UZtPTvDm7F9S9MRlcJYRa1rVzqR7xlRcO91MRtwxBLZEpHDxdWYZdjWYdnic3jNq6mT2xWF1Np0x7xoTbDewCyRi2CcuqqYNZ/QQYSUs4SKdlGuOLosUqmOvZJc1T0nTWhjbVXbnM5xs=
 env:
-  secure: DdTknoc3EupcuJn+4yvtU3Fm0uQJer16cyRf6GlnROBvCEQQH7kpbthI4gIjJNKafRitqifpdNbO9GslulLbHumLxoTsHFvj6hKZIBVVOjW4OITHN5Vcp/DUZw5Md7Z16zaviBGYpGiGfyICSDIjn98XR05h9DK9mKbsdoENY4g5tw3rjXNp64vMCAhRO9eM8dms8RrSHwiOEfhWyjMO9dZN4lLfSOUaGKFSYuzA0j/3ji4ppUylU8VoRcBTTMXEqte/oT0qGgLl1bz69bgPCgjVsi9HivzP/sGRpfQs6r0yjjj5/JUCkK1ndjrXlWPzP9oaQe8umy2EEjg8ENcoHky/uEOzuyVuErF2PuaV+SqaS45c0FqbSQq4YMNsZQemaigCqY1e+KdSmtzEWPDE0bKlkWY5KQ4ei5KNBreuHQ5mVu8FA5KjuJIuzFEiLoapYxqDxuYCZgyi1RQamujbGzCMolJ7Vp2++q2JDYs5vJHZCUn2lWfhIvT1V1jT0LCToqdXHd9AdkwnPVobkkLc63RksjEHe3lGCA8CegQ+bnUQKVxaoAb5WtYHINjDq7XARjmQ9rHHWNZ+gfNx+OzrcBGuUTX6tfQjYBC6zNdiB8l8pQ9iqRtu7MXniqTGAbCeVJgWFMAspBcSGAHRBfm2ipkiANt94Q9i5zpXEWGlIFc=
+  secure: e3z1w7kcyYc5vCB8VVBRNqmlLAXUwUagspmB+8LQ7tlWWd7PL4nXQo9kZWhpNv1zaeQ4iUdB70W+anlIPJp2pVq+//xGvJftUK10MzE4y/E50B8e0JeR+yA+b9NJnkj8bIxjfKIvFLLE3RbMH3B4Z6sKmblssWT/r8u/Wif2UlUxYxa/rJFiT2/HXdaynaWkaY/e7SxWkwcZJY5u/xSQXAlSF1TEJC0QknbXF9xVeHMLp+8aSFrRbuZ8PqxIFhwfOM8mXqdjUuT1YELi/P5YRNUAoA0aXRMKWc+mE0SMRmIy2pWHeGMJ3rbwLr86y8ODGyfvNDARYRG+R3c9ZrdomS19TJC0aVlcqR59mP3GvrqIh2CgX7wpud/gjDsFmrokXF6VXrZDf0E6s0HWby664Mb4CSQb1zXWB7Fl459ASLcxLIKI/I5I51iD4jQPJF0YMrIBtQ4oIBhvstP3vwO74NYapP4bWAckquxAUZ/FvgxwrpgrG1CIfgf8FudRZ/q8TRpyik2g48FYEX/VuwPtI1DFaJCZPNGlfDpdzWJ0RFmMLEDoom++O31WReVVDb6T748KN4NxbaJ29DPjK/jflD1h5O0BQeC0WsWqMP4twfkvFAJwFWsa81YyjxwT6xLHvCwfpHkEn9gebhj2T9rTTUp10gPsDbZiV/YdWaQsmaQ=
 after_script:
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+- "./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT"
