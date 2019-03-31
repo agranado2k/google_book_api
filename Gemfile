@@ -16,6 +16,8 @@ group :development, :test do
   gem 'rubocop', '~> 0.66.0'
   gem 'bundler-audit', '~> 0.6.1'
   gem 'brakeman', '~> 4.5'
+  gem 'simplecov', '~> 0.16.1'
+  gem 'simplecov-console', '~> 0.4.2'
 end
 
 group :development do
