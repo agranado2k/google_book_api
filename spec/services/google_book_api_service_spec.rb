@@ -29,5 +29,30 @@ RSpec.describe GoogleBookApiService do
       expect(books).to_not be_empty
       expect(books[0]).to be_a Book
     end
+
+    context "when book is populated" do
+      let(:book_params) do
+        {
+          title: "The Secret of Spice",
+          author: "Tonia Buxton",
+          publisher: "Kings Road Publishing",
+          img_link: "http://books.google.com/books/content?id=3Kl0DwAAQBAJ&" \
+                    "printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          info_link: "https://play.google.com/store/books/details?id=3Kl0DwAAQBAJ&source=gbs_api"
+        }
+      end
+
+      it "should book has the attributes" do
+        books = subject.query(term, page)
+        book = books[0]
+
+        expect(book.title).to eq(book_params[:title])
+        expect(book.author).to eq(book_params[:author])
+        expect(book.publisher).to eq(book_params[:publisher])
+        expect(book.img_link).to eq(book_params[:img_link])
+        expect(book.info_link).to eq(book_params[:info_link])
+      end
+
+    end
   end
 end
