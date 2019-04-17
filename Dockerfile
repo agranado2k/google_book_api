@@ -8,4 +8,4 @@ ADD Gemfile Gemfile.lock /app/
 RUN bundle install
 
 ADD . .
-CMD ["puma"]
+CMD ["bundle", "exec", "puma"]
