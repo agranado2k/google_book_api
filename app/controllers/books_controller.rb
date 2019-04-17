@@ -2,29 +2,26 @@
 
 class BooksController < ApplicationController
   def index
-    @current_page = param_current_page
     @books = []
     return if params[:search_field].blank?
 
-    google_api_key = Rails.application.credentials.google_api_key!
-    book_api = GoogleBookApiService.new(google_api_key)
-    book_repository = BookRepository.new(book_api)
+    @current_page = change_page(params[:current_page], params[:page_action])
     @books = book_repository.search(params[:search_field], @current_page)
   end
 
   private
 
-    def param_current_page
-      page = params[:current_page].nil? ? 0 :  params[:current_page].to_i
-      action = params[:page_action]
-      if !action.nil? && action == 'forward'
-        page += 1
-      end
-
-      if !action.nil? && action == 'backward' && page > 0
-        page -= 1
-      end
-
+    def change_page(page, action)
+      page ||= 0
+      page = page.to_i
+      page += 1 if action && action == 'forward'
+      page -= 1 if action && action == 'backward' && page.positive?
       page
+    end
+
+    def book_repository
+      google_api_key = Rails.application.credentials.google_api_key!
+      book_api = GoogleBookApiService.new(google_api_key)
+      BookRepository.new(book_api)
     end
 end

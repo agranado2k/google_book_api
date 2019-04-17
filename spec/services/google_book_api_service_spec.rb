@@ -52,7 +52,6 @@ RSpec.describe GoogleBookApiService do
         expect(book.img_link).to eq(book_params[:img_link])
         expect(book.info_link).to eq(book_params[:info_link])
       end
-
     end
   end
 end
