@@ -15,6 +15,10 @@ RSpec.describe BooksController, type: :controller do
         expect(assigns(:books)).to be_empty
       end
 
+      it "term is assinged to empty" do
+        expect(assigns(:term)).to be_empty
+      end
+
       it "renders the index template" do
         expect(response).to render_template("index")
       end
@@ -39,6 +43,10 @@ RSpec.describe BooksController, type: :controller do
 
         it "books is assigned to empty list" do
           expect(assigns(:books)).to_not be_empty
+        end
+
+        it "term is NOT empty" do
+          expect(assigns(:term)).to eq("sail")
         end
 
         it "current_page keep same" do

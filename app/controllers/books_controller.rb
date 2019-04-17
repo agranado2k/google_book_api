@@ -3,19 +3,20 @@
 class BooksController < ApplicationController
   def index
     @books = []
-    return if params[:search_field].blank?
+    @term = params.fetch(:search_field, '')
+    return if @term.blank?
 
-    @current_page = change_page(params[:current_page], params[:page_action])
-    @books = book_repository.search(params[:search_field], @current_page)
+    @current_page = change_page
+    @books = book_repository.search(@term, @current_page)
   end
 
   private
 
-    def change_page(page, action)
-      page ||= 0
-      page = page.to_i
-      page += 1 if action && action == 'forward'
-      page -= 1 if action && action == 'backward' && page.positive?
+    def change_page
+      page = params.fetch(:current_page, 0).to_i
+      action = params.fetch(:page_action, '')
+      page += 1 if action == 'forward'
+      page -= 1 if action == 'backward' && page.positive?
       page
     end
 
