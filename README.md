@@ -24,12 +24,44 @@ If you want only execute RSpec, you can also execute the command
 docker-compose run web bundle exec rspec
 ```
 
-## How to run the project
+## How to run the project locally
 In the project's root folder execute the command
 ```shell
 docker-compose up web
 ```
 And open in browser [http://localhost:3000](http://localhost:3000)
+
+## How to deploy to Heroku
+First you have to sign in [Heroku](https://heroku.com) and install [Heroku Cli](https://devcenter.heroku.com/articles/heroku-cli). After execute the command in project's folder:
+- Login the Cli tool
+```shell
+heroku login
+```
+- Create application in heroku
+```shell
+heroku create
+```
+- Set Env Variables **RAILS_MASTER** and **GOOGLE_BOOK_API_KEY**
+```shell
+heroku config:set GOOGLE_BOOK_API_KEY={your google api key here}
+heroku config:set RAILS_MASTER_KEY=`cat config/master.key`
+```
+- Login in Heroku container ([learn more here](https://devcenter.heroku.com/articles/container-registry-and-runtime))
+```shell
+heroku container:login
+```
+- Push the project to container
+```shell
+heroku container:push web
+```
+- Release the application
+```shell
+heroku container:release web
+```
+- Once it is done, open the application
+```shell
+heroku open
+```
 
 
 ### Continuous Integration and Continuous Deployment
