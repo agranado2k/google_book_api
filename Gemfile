@@ -24,7 +24,7 @@ group :development do
 end
 
 group :test do
-  gem 'capybara', '>= 2.15'
+  gem 'capybara', '>= 3.15.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
