@@ -30,8 +30,7 @@ stages:
       inputs:
         serviceConnectionEndpoint: 'Snyk Token'
         testType: 'container'
-        dockerImageName: 'agranadosnyk/book_api:0.0.1'
+        dockerImageName: 'agranadosnyk/google-book-api:0.1'
         dockerfilePath: 'Dockerfile'
         monitorOnBuild: false
         failOnIssues: false
-        projectName: 'Azure Test'
