@@ -20,10 +20,18 @@ stages:
     pool:
       vmImage: ubuntu-latest
     steps:
-    - task: Docker@2
-      displayName: Build an image
+    # - task: Docker@2
+    #   displayName: Build an image
+    #   inputs:
+    #     command: build
+    #     dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
+    - task: SnykSecurityScan@0
+      displayName: Snyk scan
       inputs:
-        command: build
-        dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
-        tags: |
-          $(tag)
+        serviceConnectionEndpoint: 'Snyk Token'
+        testType: 'container'
+        dockerImageName: 'agranadosnyk/book_api:0.0.1'
+        dockerfilePath: 'Dockerfile'
+        monitorOnBuild: false
+        failOnIssues: false
+        projectName: 'Azure Test'
