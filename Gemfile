@@ -1,16 +1,16 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'rails', '~> 5.2.2'
+gem 'rails', '~> 6.1.7', '>= 6.1.7.5'
 gem 'puma', '~> 3.11'
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.9', '>= 2.9.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'rest-client', '~> 2.0', '>= 2.0.2'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec-rails', '~> 3.8'
-  gem 'rails-controller-testing', '~> 0.0.3'
+  gem 'rspec-rails', '~> 3.8', '>= 3.8.3'
+  gem 'rails-controller-testing', '~> 0.1.0'
   gem 'rubocop', '~> 0.66.0'
   gem 'bundler-audit', '~> 0.6.1'
   gem 'brakeman', '~> 4.5'
@@ -19,7 +19,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'spring'
+  gem 'spring', '>= 2.1.0'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
