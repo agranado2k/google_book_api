@@ -9,7 +9,7 @@ gem 'rest-client', '~> 2.0', '>= 2.0.2'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'rspec-rails', '~> 3.8'
+  gem 'rspec-rails', '~> 8.0', '>= 8.0.0'
   gem 'rails-controller-testing', '~> 0.0.3'
   gem 'rubocop', '~> 0.66.0'
   gem 'bundler-audit', '~> 0.6.1'
